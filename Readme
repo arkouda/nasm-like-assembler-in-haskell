@@ -1,0 +1,34 @@
+
+To run Program -
+		
+(i) open ghci
+
+    > ghci
+    Or
+    > stack ghci
+
+(ii) Compile Program -
+
+     > :l MacroLSTGen.hs
+
+(iii) final Step (Run it) -
+
+     > run FileName
+
+e.g - 
+     > run "sample.asm"  
+
+
+Previous Implemented Assembler Supported the following thing :-
+
+    	      	      		1 - mov Instruction
+				2 - movsb Instruction
+ 		     		3 - scasb Instruction
+				4 - cmpsb Instruction 
+				5 - lodsb Instruction
+				
+Newly Added :-
+
+				6 - Macro Support
+				7 - Increased Error handling
+				

@@ -1,0 +1,6 @@
+abc:    xyz,d
+	./MacroLSTGen sample.asm
+xyz:    
+	./MacroLSTGen t.asm
+d:
+	./MacroLSTGen t.asm
